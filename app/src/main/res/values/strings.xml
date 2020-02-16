@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">FlashcardApp</string>
+    <string name="q1"><u>What is the net force on a stationary object?</u></string>
+    <string name="a1"><b>Zero</b></string>
 </resources>

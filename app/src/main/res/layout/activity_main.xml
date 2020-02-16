@@ -14,9 +14,12 @@
         android:layout_height="200dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="-2dp"
-        android:layout_marginTop="57dp"
-        android:text="What is the net force on a stationary object?"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="114dp"
+        android:layout_marginEnd="-2dp"
+        android:background="#03A9F4"
+        android:text="@string/q1"
         android:textAlignment="center"
         android:textSize="40sp" />
 
@@ -25,14 +28,17 @@
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_centerInParent="true"
-        android:layout_marginStart="-4dp"
-        android:layout_marginBottom="250dp"
-        android:foregroundGravity="center_vertical|center|center_horizontal"
-        android:text="Zero"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="114dp"
+        android:layout_marginEnd="-2dp"
+        android:background="#FFEB3B"
+        android:text="@string/a1"
         android:textAlignment="center"
         android:textSize="40sp"
         android:visibility="invisible" />
+
+
 
 </RelativeLayout>
