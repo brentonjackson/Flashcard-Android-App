@@ -8,7 +8,7 @@ Simple flashcard app for android devices
 
 ### App Walk-though
 
-<img src="https://s3.amazonaws.com/img0.recordit.co/1szHdvVRAz.mp4?AWSAccessKeyId=AKIAUQ5RURZ7ND2T2B6I&Expires=1582018598&Signature=iQHqd7R0wZmY%2FBGaYXD%2BKKo%2Bb4c%3D" width=200><br>
+<img src="http://g.recordit.co/1szHdvVRAz.gif" width=200><br>
 
 
 ## Required
