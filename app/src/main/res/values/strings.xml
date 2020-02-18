@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">FlashcardApp</string>
-    <string name="q1"><u>What is the net force on a stationary object?</u></string>
+    <string name="q1">What is the net force of an object moving at a constant velocity <i>v</i>?</string>
     <string name="a1"><b>Zero</b></string>
+    <string name="choice1">mg</string>
+    <string name="choice2">mv</string>
+    <string name="choice3">Zero</string>
 </resources>

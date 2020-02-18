@@ -15,30 +15,91 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="114dp"
-        android:layout_marginEnd="-2dp"
-        android:background="#03A9F4"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="-6dp"
+        android:background="#8603A9F4"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
         android:text="@string/q1"
         android:textAlignment="center"
         android:textSize="40sp" />
 
     <TextView
         android:id="@+id/flashcard_answer"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_width="420dp"
+        android:layout_height="201dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="0dp"
-        android:layout_marginTop="114dp"
-        android:layout_marginEnd="-2dp"
-        android:background="#FFEB3B"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="-8dp"
+        android:background="#B2FFEB3B"
         android:text="@string/a1"
         android:textAlignment="center"
         android:textSize="40sp"
         android:visibility="invisible" />
 
+    <TextView
+        android:id="@+id/flashcard_choice1"
+        android:layout_width="416dp"
+        android:layout_height="87dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="248dp"
+        android:layout_marginEnd="-5dp"
+        android:background="#40FFEB3B"
+        android:text="@string/choice1"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/flashcard_choice2"
+        android:layout_width="416dp"
+        android:layout_height="87dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="338dp"
+        android:layout_marginEnd="-5dp"
+        android:background="#40FFEB3B"
+        android:text="@string/choice2"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/flashcard_choice3"
+        android:layout_width="416dp"
+        android:layout_height="87dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="429dp"
+        android:layout_marginEnd="-6dp"
+        android:background="#40FFEB3B"
+        android:text="@string/choice3"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:visibility="visible" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-1dp"
+        android:text="ToggleButton"
+        android:textOff="HIDE"
+        android:textOn="SHOW" />
 
 
 </RelativeLayout>
