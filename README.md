@@ -9,7 +9,7 @@ Simple flashcard app for android devices
 ### App Walk-though
 `TODO://` Add the URL to your animated app walk-though `gif` in the image tag below. Make sure the gif actually renders and animates when viewing this README. (☝️ Remove this paragraph after after adding gif)
 
-<img src="YOUR_GIF_URL_HERE" width=200><br>
+<img src="https://s3.amazonaws.com/img0.recordit.co/1szHdvVRAz.mp4?AWSAccessKeyId=AKIAUQ5RURZ7ND2T2B6I&Expires=1582018598&Signature=iQHqd7R0wZmY%2FBGaYXD%2BKKo%2Bb4c%3D" width=200><br>
 
 
 ## Required
