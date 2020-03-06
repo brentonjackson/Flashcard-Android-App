@@ -101,17 +101,15 @@
         android:textOff="HIDE"
         android:textOn="SHOW" />
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floatingActionButton"
-        android:layout_width="96dp"
-        android:layout_height="72dp"
+    <ImageView
+        android:id="@+id/addBtn"
+        android:layout_width="63dp"
+        android:layout_height="53dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="6dp"
-        android:layout_marginBottom="31dp"
-        android:clickable="true"
-        app:srcCompat="@android:drawable/ic_menu_add"
-        android:focusable="true" />
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="22dp"
+        android:src="@drawable/add_icon" />
 
 
 </RelativeLayout>
