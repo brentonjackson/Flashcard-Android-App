@@ -1,7 +1,5 @@
 package com.example.flashcardapp;
 
-//import android.content.Intent;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -48,7 +46,17 @@ public class AddCardActivity extends AppCompatActivity {
             }
         });
 
+    }
 
+    // method to get data from main activity
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if ( requestCode == 200) {
+            String current_question = getIntent().getStringExtra("question");
+            String current_ans = getIntent().getStringExtra("answer");
+            ((EditText)findViewById(R.id.question)).setText(current_question);
+            ((EditText)findViewById(R.id.answer)).setText(current_ans);
 
+        }
     }
 }
