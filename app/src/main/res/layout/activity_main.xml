@@ -5,39 +5,38 @@
     android:id="@+id/rootView"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".MainActivity">
 
 
     <TextView
         android:id="@+id/flashcard_question"
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
         android:layout_height="200dp"
-        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="-6dp"
-        android:background="#8603A9F4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="125dp"
+        android:background="#FFFFFF"
+        android:fontFamily="@font/montserrat"
+        android:gravity="center"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
-        android:text="@string/q1"
         android:textAlignment="center"
+        android:textColor="?attr/colorPrimary"
         android:textSize="40sp" />
 
     <TextView
         android:id="@+id/flashcard_answer"
-        android:layout_width="420dp"
-        android:layout_height="201dp"
-        android:layout_alignParentStart="true"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
         android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="14dp"
-        android:layout_marginEnd="-8dp"
-        android:background="#B2FFEB3B"
-        android:text="@string/a1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="125dp"
+        android:background="@color/colorPrimary"
+        android:fontFamily="@font/montserrat"
+        android:gravity="center"
         android:textAlignment="center"
+        android:textColor="@android:color/white"
         android:textSize="40sp"
         android:visibility="invisible" />
 
@@ -55,7 +54,7 @@
         android:text="@string/choice1"
         android:textAlignment="center"
         android:textSize="40sp"
-        android:visibility="invisible" />
+        android:visibility="gone" />
 
     <TextView
         android:id="@+id/flashcard_choice2"
@@ -72,7 +71,7 @@
         android:text="@string/choice2"
         android:textAlignment="center"
         android:textSize="40sp"
-        android:visibility="invisible" />
+        android:visibility="gone" />
 
     <TextView
         android:id="@+id/flashcard_choice3"
@@ -88,7 +87,7 @@
         android:text="@string/choice3"
         android:textAlignment="center"
         android:textSize="40sp"
-        android:visibility="invisible" />
+        android:visibility="gone" />
 
     <ToggleButton
         android:id="@+id/toggleButton"
@@ -99,27 +98,8 @@
         android:layout_marginBottom="-1dp"
         android:text="ToggleButton"
         android:textOff="HIDE"
-        android:textOn="SHOW" />
-
-    <ImageView
-        android:id="@+id/addBtn"
-        android:layout_width="63dp"
-        android:layout_height="53dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="17dp"
-        android:layout_marginBottom="22dp"
-        android:src="@drawable/add_icon" />
-
-    <ImageView
-        android:id="@+id/editBtn"
-        android:layout_width="63dp"
-        android:layout_height="53dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="16dp"
-        android:layout_marginBottom="22dp"
-        android:src="@drawable/edit_icon" />
+        android:textOn="SHOW"
+        android:visibility="gone" />
 
     <ImageView
         android:id="@+id/nextBtn"
@@ -127,9 +107,67 @@
         android:layout_height="44dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="97dp"
-        android:layout_marginBottom="77dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="156dp"
         android:src="@drawable/next_icon" />
+
+    <ImageView
+        android:id="@+id/prevBtn"
+        android:layout_width="63dp"
+        android:layout_height="44dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="156dp"
+        android:layout_toStartOf="@+id/nextBtn"
+        android:scaleX="-1"
+        android:src="@drawable/next_icon"
+        app:srcCompat="@drawable/prev_icon" />
+
+    <TextView
+        android:id="@+id/flashcardNumber"
+        android:layout_width="118dp"
+        android:layout_height="43dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="223dp"
+        android:contentDescription="current flashcard"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="27dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/deleteBtn"
+            android:layout_width="63dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/cancel_icon"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/editBtn"
+            android:layout_width="63dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/edit_icon"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/addBtn"
+            android:layout_width="63dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/add_icon"
+            android:visibility="visible" />
+    </LinearLayout>
 
 
 </RelativeLayout>

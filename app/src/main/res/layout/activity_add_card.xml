@@ -16,7 +16,8 @@
         android:layout_marginBottom="20dp"
         android:src="@drawable/cancel_icon"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/return_icon" />
 
     <ImageView
         android:id="@+id/saveBtn"

@@ -26,6 +26,7 @@ public class AddCardActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(AddCardActivity.this, MainActivity.class);
                 AddCardActivity.this.startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
             }
         });
 
@@ -37,6 +38,7 @@ public class AddCardActivity extends AppCompatActivity {
                 // Get data from text fields
                 String questionStr = question.getText().toString();
                 String answerStr = answer.getText().toString();
+
 
                 Intent data = new Intent(); // create a new Intent, this is where we will put our data
                 data.putExtra("string1", questionStr); // puts question string into the Intent, with the key as 'string1'
@@ -58,5 +60,13 @@ public class AddCardActivity extends AppCompatActivity {
             ((EditText)findViewById(R.id.answer)).setText(current_ans);
 
         }
+    }
+
+    // Exit animation
+
+    @Override
+    public void finish() {
+        super.finish();
+        overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
     }
 }
