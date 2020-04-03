@@ -5,7 +5,7 @@
 
 ## tl;dr
 
-I built this in a Mobile App Design course offered by Codepath. It was a great experience! I had recently started learning web development, so this was a nice change of pace that broke up my long nights in Chrome and Sublime (sometimes switch between VSCode (and Brackets if I'm not using React! :/)). I always thought it'd be cool to learn how to build an Android app because Android is super open source and I know that I'd be able to use anything I made as an Android user 😬!
+I built this in a Mobile App Design course offered by Codepath. It was a great experience! I had recently started learning web development, so this was a nice change of pace that broke up my long nights in Chrome and Sublime (sometimes switch between VSCode - and Brackets deserves a shoutout if I'm not using React! 😶 ). I always thought it'd be cool to learn how to build an Android app because Android is super open source and I know that I'd be able to use anything I made as an Android user 😬!
 Now 
 
 ## Lessons Learned
@@ -13,6 +13,7 @@ Now
 - ✅ Animations
 - ✅ Connect different screens/events
 - ✅ iOS admittedly has a sleeker developer experience 😔
+- ✅ CodePath is AMAZING
 
 ## Lab 4
 
