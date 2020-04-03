@@ -1,5 +1,19 @@
 # Flashcard-Android-App
 
+[![forthebadge](https://forthebadge.com/images/badges/built-for-android.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-java.svg)](https://forthebadge.com)
+
+## tl;dr
+
+I built this in a Mobile App Design course offered by Codepath. It was a great experience! I had recently started learning web development, so this was a nice change of pace that broke up my long nights in Chrome and Sublime (sometimes switch between VSCode (and Brackets if I'm not using React! :/)). I always thought it'd be cool to learn how to build an Android app because Android is super open source and I know that I'd be able to use anything I made as an Android user 😬!
+Now 
+
+## Lessons Learned
+- ✅ Using SQL databases to save data
+- ✅ Animations
+- ✅ Connect different screens/events
+- ✅ iOS admittedly has a sleeker developer experience 😔
+
 ## Lab 4
 
 ### App Description
