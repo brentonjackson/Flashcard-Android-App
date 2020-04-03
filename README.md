@@ -5,8 +5,9 @@
 
 ## tl;dr
 
-I built this in a Mobile App Design course offered by Codepath. It was a great experience! I had recently started learning web development, so this was a nice change of pace that broke up my long nights in Chrome and Sublime (sometimes switch between VSCode - and Brackets deserves a shoutout if I'm not using React! 😶 ). I always thought it'd be cool to learn how to build an Android app because Android is super open source and I know that I'd be able to use anything I made as an Android user 😬!
-Now 
+I built this in a Mobile App Design course offered by Codepath. It was a great experience! I had recently started learning web development, so this was a nice change of pace that broke up my long nights in Chrome and Sublime (sometimes switch between VSCode - and Brackets deserves a shoutout if I'm not using React! 😶 ). <br>
+
+I always thought it'd be cool to learn how to build an Android app because Android is super open source and I know that I'd be able to use anything I created as an Android user 😬!
 
 ## Lessons Learned
 - ✅ Using SQL databases to save data
